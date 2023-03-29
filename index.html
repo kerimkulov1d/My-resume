@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="london, big ben, tower bridge">
+    <meta name="description" content="London is the capital of Grest Britain">
+    <link rel="stylesheet" href="styles.css">
+    <title>My first page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="img/kd.jpg" alt="Daniiar Kerimkulov">
+            <div class="info-text">
+                <h1>Daniiar Kerimkulov</h1>
+                <p>I live and work in <strong>London, UK.</strong></p>
+                <p>I like <em>travelling, doing sport and coding.</em></p>    
+                <h4>List of social networks:</h4>
+                    <a href="https://www.instagram.com/kerimkulov.da/" target="_blank">Instagram</a> |
+                    <a href="https://t.me/kerimkulov_d" target="_blank">Telegram</a> |
+                    <a href="https://www.youtube.com/@websmartkelechek9766" target="_blank">Youtube</a>
+            </div>
+        </div>
+        <div class="card bg-yellow">
+            <h2>My hobbies:</h2>
+            <ol class="list" >
+                <li>Travelling</li>
+                <li>Table tennis</li>
+                <li>Workout</li>
+                <li>Coding</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Work experience</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Job</th>
+                        <th>Year</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Laduree</td>
+                        <td>Waiter</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Kant LLC</td>
+                        <td>Translater</td>
+                        <td>2019-2022</td>
+                    </tr>
+                    <tr>
+                        <td>Pic Construction</td>
+                        <td>Fixer</td>
+                        <td>2023-now</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="form-title">Связаться со мной</h2>
+        <form class="form" action="/">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input class="input-text" type="text" name="" id="name" placeholder="Введите имя">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input class="input-email" type="email" name="" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea name="" id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+            <button class="btn" type="submit">Отправить!</button>
+            
+        </form>
+    </div>
+
+</body>
+</html>
